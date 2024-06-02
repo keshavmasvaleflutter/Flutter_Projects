@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'verification_page.dart';
 
 class LoginPage extends StatefulWidget {
@@ -38,13 +39,14 @@ class _LoginPageState extends State {
               const SizedBox(
                 height: 45,
               ),
-              const Text(
+              Text(
                 "Log in",
-                style: TextStyle(
-                  fontWeight: FontWeight.w600,
-                  fontSize: 30,
-                  fontFamily: 'Poppins',
-                ),
+                style:  GoogleFonts.poppins(
+                  textStyle: const TextStyle(
+                    fontWeight: FontWeight.w600,
+                    fontSize: 30,
+                  ),
+                )
               ),
               const SizedBox(
                 height: 55,
@@ -101,14 +103,16 @@ class _LoginPageState extends State {
                             builder: (context) => const VerificationPage()));
                     numberController.clear();
                   } else {
-                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+                    ScaffoldMessenger.of(context).showSnackBar( SnackBar(
                       content: Text(
                         "Enter your number",
-                        style: TextStyle(
-                          color: Colors.black,
-                        ),
+                        style: GoogleFonts.poppins(
+                            textStyle: const TextStyle(
+                            color: Colors.black,
+                          ),
+                        )
                       ),
-                      padding: EdgeInsets.only(left: 120, bottom: 10, top: 8),
+                      padding: const EdgeInsets.only(left: 120, bottom: 10, top: 8),
                       backgroundColor: Color.fromRGBO(255, 255, 255, 1),
                     ));
                   }
@@ -126,15 +130,17 @@ class _LoginPageState extends State {
                             Color.fromRGBO(62, 102, 24, 1)
                           ]),
                       borderRadius: BorderRadius.all(Radius.circular(10))),
-                  child: const Row(
+                  child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
                         "Log in",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 20,
-                          fontWeight: FontWeight.w500,
+                        style: GoogleFonts.poppins(
+                          textStyle: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontWeight: FontWeight.w500,
+                          ),
                         ),
                       ),
                     ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'login_page.dart';
 
 class WelcomePage extends StatefulWidget {
@@ -24,16 +25,17 @@ class _WelcomePageState extends State {
           ),
           Column(
             children: [
-              const Row(
+              Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
                     "Enjoy your",
-                    style: TextStyle(
-                      fontSize: 34.22,
-                      fontWeight: FontWeight.w400,
-                      fontFamily: 'Poppins',
-                      color: Color.fromRGBO(47, 47, 47, 1),
+                    style: GoogleFonts.poppins(
+                      textStyle: const TextStyle(
+                        fontSize: 34.22,
+                        fontWeight: FontWeight.w400,
+                        color: Color.fromRGBO(47, 47, 47, 1),
+                      )
                     ),
                   ),
                 ],
@@ -41,25 +43,27 @@ class _WelcomePageState extends State {
               const SizedBox(
                 height: 5,
               ),
-              const Row(
+              Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
                     "life with ",
-                    style: TextStyle(
-                      fontSize: 34.22,
-                      fontWeight: FontWeight.w400,
-                      fontFamily: 'Poppins',
-                      color: Color.fromRGBO(47, 47, 47, 1),
+                    style: GoogleFonts.poppins(
+                      textStyle: const TextStyle(
+                        fontSize: 34.22,
+                        fontWeight: FontWeight.w400,
+                        color: Color.fromRGBO(47, 47, 47, 1),
+                      )
                     ),
                   ),
                   Text(
                     "Plants",
-                    style: TextStyle(
-                      fontSize: 34.22,
-                      fontWeight: FontWeight.w500,
-                      fontFamily: 'Poppins',
-                      color: Color.fromRGBO(0, 0, 0, 1),
+                    style: GoogleFonts.poppins(
+                      textStyle: const TextStyle(
+                        fontSize: 34.22,
+                        fontWeight: FontWeight.w500,
+                        color: Color.fromRGBO(0, 0, 0, 1),
+                      )
                     ),
                   )
                 ],
@@ -87,21 +91,21 @@ class _WelcomePageState extends State {
                             Color.fromRGBO(62, 102, 24, 1)
                           ]),
                       borderRadius: BorderRadius.all(Radius.circular(10))),
-                  child: const Row(
+                  child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
                         "Get Started",
-                        style: TextStyle(
-                          color: Colors.white,
+                        style: GoogleFonts.poppins(
+                          textStyle: const TextStyle(color: Colors.white,
                           fontSize: 20,
-                          fontWeight: FontWeight.w500,
+                          fontWeight: FontWeight.w500,)
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 10,
                       ),
-                      Icon(
+                      const Icon(
                         Icons.arrow_forward_ios_outlined,
                         color: Colors.white,
                       ),

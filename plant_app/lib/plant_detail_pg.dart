@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class PlantDetails extends StatefulWidget {
   const PlantDetails({super.key});
@@ -54,18 +55,19 @@ class _PlantDetailsState extends State {
           const SizedBox(
             height: 20,
           ),
-          const Row(
+          Row(
             children: [
-              SizedBox(
+              const SizedBox(
                 width: 31,
               ),
               Text(
                 "Snake Plants",
-                style: TextStyle(
-                  fontFamily: 'Poppins',
-                  fontWeight: FontWeight.w600,
-                  fontSize: 22,
-                  color: Color.fromRGBO(48, 48, 48, 1),
+                style: GoogleFonts.poppins(
+                  textStyle: const TextStyle(
+                    fontWeight: FontWeight.w600,
+                    fontSize: 22,
+                    color: Color.fromRGBO(48, 48, 48, 1),
+                  ),
                 ),
               ),
             ],
@@ -77,8 +79,15 @@ class _PlantDetailsState extends State {
                 margin: const EdgeInsets.only(left: 31),
                 width: 298,
                 height: 40,
-                child: const Text(
-                    "Plansts make your life with minimal and happy love the plants more and enjoy life."),
+                child: Text(
+                    "Plansts make your life with minimal and happy love the plants more and enjoy life.",
+                    style: GoogleFonts.poppins(
+                      textStyle: const TextStyle(
+                        fontWeight: FontWeight.w400,
+                        fontSize: 13,
+                      ),
+                    ),
+                  ),
               ),
             ],
           ),
@@ -88,9 +97,9 @@ class _PlantDetailsState extends State {
           Row(
             children: [
               Container(
-                margin: const EdgeInsets.only(left: 25),
+                margin: const EdgeInsets.only(left: 16.5),
                 height: 203,
-                width: 342,
+                width: 350,
                 decoration: const BoxDecoration(
                   color: Color.fromRGBO(118, 152, 75, 1),
                   borderRadius: BorderRadius.all(Radius.circular(20)),
@@ -101,34 +110,36 @@ class _PlantDetailsState extends State {
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
                         Container(
-                          margin: const EdgeInsets.all(25),
+                          margin: const EdgeInsets.all(20),
                           child: Column(
                             children: [
                               Image.asset("images/plant_height_img.png"),
                               const SizedBox(
                                 height: 22,
                               ),
-                              const Column(
+                              Column(
                                 children: [
                                   Text(
                                     "Height",
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      fontWeight: FontWeight.w500,
-                                      fontSize: 12,
-                                      color: Color.fromRGBO(255, 255, 255, 1),
+                                    style: GoogleFonts.poppins(
+                                      textStyle: const TextStyle(
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 12,
+                                        color: Color.fromRGBO(255, 255, 255, 1),
+                                      ),
                                     ),
                                   ),
-                                  SizedBox(
+                                  const SizedBox(
                                     height: 5,
                                   ),
                                   Text(
                                     "30cm-40cm",
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      fontWeight: FontWeight.w500,
-                                      fontSize: 10,
-                                      color: Color.fromRGBO(255, 255, 255, 1),
+                                    style: GoogleFonts.poppins(
+                                      textStyle: const TextStyle(
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 10,
+                                        color: Color.fromRGBO(255, 255, 255, 1),
+                                      ),
                                     ),
                                   ),
                                 ],
@@ -137,34 +148,36 @@ class _PlantDetailsState extends State {
                           ),
                         ),
                         Container(
-                          margin: const EdgeInsets.all(25),
+                          margin: const EdgeInsets.all(20),
                           child: Column(
                             children: [
                               Image.asset("images/thermometer.png"),
                               const SizedBox(
                                 height: 10,
                               ),
-                              const Column(
+                              Column(
                                 children: [
                                   Text(
                                     "Temperature",
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      fontWeight: FontWeight.w500,
-                                      fontSize: 12,
-                                      color: Color.fromRGBO(255, 255, 255, 1),
+                                    style: GoogleFonts.poppins(
+                                      textStyle: const TextStyle(
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 12,
+                                        color: Color.fromRGBO(255, 255, 255, 1),
+                                      ),
                                     ),
                                   ),
-                                  SizedBox(
+                                  const SizedBox(
                                     height: 5,
                                   ),
                                   Text(
                                     "20’C-25’C",
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      fontWeight: FontWeight.w500,
-                                      fontSize: 10,
-                                      color: Color.fromRGBO(255, 255, 255, 1),
+                                    style: GoogleFonts.poppins(
+                                      textStyle: const TextStyle(
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 10,
+                                        color: Color.fromRGBO(255, 255, 255, 1),
+                                      ),
                                     ),
                                   ),
                                 ],
@@ -173,34 +186,36 @@ class _PlantDetailsState extends State {
                           ),
                         ),
                         Container(
-                          margin: const EdgeInsets.all(25),
+                          margin: const EdgeInsets.all(20),
                           child: Column(
                             children: [
                               Image.asset("images/Ciramic_pot.png"),
                               const SizedBox(
                                 height: 17,
                               ),
-                              const Column(
+                              Column(
                                 children: [
                                   Text(
                                     "Pot",
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      fontWeight: FontWeight.w500,
-                                      fontSize: 12,
-                                      color: Color.fromRGBO(255, 255, 255, 1),
+                                    style: GoogleFonts.poppins(
+                                      textStyle: const TextStyle(
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 12,
+                                        color: Color.fromRGBO(255, 255, 255, 1),
+                                      ),
                                     ),
                                   ),
-                                  SizedBox(
+                                  const SizedBox(
                                     height: 5,
                                   ),
                                   Text(
                                     "Ciramic Pot",
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      fontWeight: FontWeight.w500,
-                                      fontSize: 10,
-                                      color: Color.fromRGBO(255, 255, 255, 1),
+                                    style: GoogleFonts.poppins(
+                                      textStyle: const TextStyle(
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 10,
+                                        color: Color.fromRGBO(255, 255, 255, 1),
+                                      ),
                                     ),
                                   ),
                                 ],
@@ -217,28 +232,30 @@ class _PlantDetailsState extends State {
                       children: [
                         Container(
                           margin: const EdgeInsets.only(left: 38, top: 4),
-                          child: const Column(
+                          child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
                                 "Total Price",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w500,
-                                  fontSize: 14,
-                                  color: Color.fromRGBO(255, 255, 255, 1),
+                                style: GoogleFonts.poppins (
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w500,
+                                    fontSize: 14,
+                                    color: Color.fromRGBO(255, 255, 255, 1),
+                                  ),
                                 ),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 5,
                               ),
                               Text(
                                 "₹ 350",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w500,
-                                  fontSize: 18,
-                                  color: Color.fromRGBO(255, 255, 255, 1),
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w500,
+                                    fontSize: 18,
+                                    color: Color.fromRGBO(255, 255, 255, 1),
+                                  ),
                                 ),
                               )
                             ],
@@ -247,29 +264,30 @@ class _PlantDetailsState extends State {
                         GestureDetector(
                           onTap: () {
                             ScaffoldMessenger.of(context).showSnackBar(
-                                const SnackBar(content: Text("Plant added to Cart",
-                                  style: TextStyle(
-                                    fontFamily: 'Poppins',
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.w500,
-                                    color: Color.fromRGBO(103, 133, 74, 1),
+                                SnackBar(content: Text("Plant added to Cart",
+                                  style: GoogleFonts.poppins( 
+                                    textStyle: const TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.w500,
+                                      color: Color.fromRGBO(103, 133, 74, 1),
+                                    ),
                                   ),
                                 ),
-                                padding: EdgeInsets.only(left: 115, bottom: 18),
-                                backgroundColor: Color.fromRGBO(255, 255, 255, 1),
+                                padding: const EdgeInsets.only(left: 115, bottom: 18),
+                                backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
                                 duration: Durations.medium2,
                               ),
                             );
                           }, 
                           child: Container(
                             margin: const EdgeInsets.only(left: 48, top: 4),
-                            width: 150,
+                            width: 160,
                             height: 48.39,
                             padding: const EdgeInsets.only(
-                                top: 12.1,
-                                bottom: 20.16,
-                                left: 12.1,
-                                right: 20.16),
+                                top: 10.1,
+                                bottom: 17.16,
+                                left: 10.1,
+                                right: 17.16),
                             decoration: const BoxDecoration(
                               color: Color.fromRGBO(103, 133, 74, 1),
                               borderRadius:
@@ -287,15 +305,16 @@ class _PlantDetailsState extends State {
                                   width: 19.35,
                                 ),
                                 const SizedBox(
-                                  width: 13,
+                                  width: 14,
                                 ),
-                                const Text(
+                                Text(
                                   "Add to cart",
-                                  style: TextStyle(
-                                    fontFamily: 'Poppins',
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 15.52,
-                                    color: Color.fromRGBO(255, 255, 255, 1),
+                                  style: GoogleFonts.poppins(
+                                    textStyle: const TextStyle(
+                                      fontWeight: FontWeight.w500,
+                                      fontSize: 15.52,
+                                      color: Color.fromRGBO(255, 255, 255, 1),
+                                    ),
                                   ),
                                 ),
                               ],

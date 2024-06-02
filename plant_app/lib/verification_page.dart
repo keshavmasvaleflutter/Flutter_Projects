@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:plant_app_01/login_page.dart';
 import 'home_page.dart';
 
@@ -50,26 +51,27 @@ class _VerificationPageState extends State {
               )
             ],
           ),
-          const Row(
+          Row(
             children: [
-              SizedBox(
+              const SizedBox(
                 width: 20,
                 height: 50,
               ),
               Text(
                 "Verification",
-                style: TextStyle(
-                  fontWeight: FontWeight.w700,
-                  fontSize: 22,
-                  fontFamily: 'Poppins',
+                style: GoogleFonts.poppins(
+                  textStyle: const TextStyle(
+                    fontWeight: FontWeight.w700,
+                    fontSize: 22,
+                  ),
                 ),
               ),
             ],
           ),
-          const Row(
+          Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              SizedBox(
+              const SizedBox(
                 width: 20,
                 height: 70,
               ),
@@ -78,11 +80,12 @@ class _VerificationPageState extends State {
                 width: 272,
                 child: Text(
                   "Enter the OTP code from the phone we just sent you.",
-                  style: TextStyle(
-                    fontWeight: FontWeight.w400,
-                    fontSize: 14,
-                    fontFamily: 'Poppins',
-                  ),
+                  style:GoogleFonts.poppins( 
+                    textStyle: const TextStyle(
+                      fontWeight: FontWeight.w400,
+                      fontSize: 14,
+                    ),
+                  )
                 ),
               ),
             ],
@@ -172,23 +175,25 @@ class _VerificationPageState extends State {
               const SizedBox(
                 width: 20,
               ),
-              const Text(
+              Text(
                 "Don’t receive OTP code! ",
-                style: TextStyle(
-                  fontFamily: 'Poppins',
-                  fontWeight: FontWeight.w400,
-                  fontSize: 14,
-                ),
+                style: GoogleFonts.poppins( 
+                  textStyle: const TextStyle(
+                    fontWeight: FontWeight.w400,
+                    fontSize: 14,
+                  ),
+                )
               ),
               GestureDetector(
                 onTap: () {},
-                child: const Text(
+                child: Text(
                   "Resend",
-                  style: TextStyle(
-                    fontFamily: 'Poppins',
-                    fontSize: 14,
-                    fontWeight: FontWeight.w800,
-                  ),
+                  style: GoogleFonts.poppins (
+                    textStyle: const TextStyle(
+                      fontSize: 14,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  )
                 ),
               ),
             ],
@@ -232,16 +237,18 @@ class _VerificationPageState extends State {
                         Color.fromRGBO(62, 102, 24, 1)
                       ]),
                   borderRadius: BorderRadius.all(Radius.circular(10))),
-              child: const Row(
+              child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
                     "Submit",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 20,
-                      fontWeight: FontWeight.w500,
-                    ),
+                    style: GoogleFonts.poppins(
+                      textStyle: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    )
                   ),
                 ],
               ),

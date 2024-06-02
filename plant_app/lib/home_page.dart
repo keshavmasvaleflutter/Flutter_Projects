@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:plant_app_01/plant_detail_pg.dart';
 
 class HomePage extends StatefulWidget {
@@ -32,16 +33,17 @@ class _HomePageState extends State {
                   const SizedBox(
                     width: 20,
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 64,
-                    width: 176,
+                    width: 180,
                     child: Text(
                       "Find your favorite plants",
-                      style: TextStyle(
-                        fontFamily: 'Poppins',
-                        fontWeight: FontWeight.w500,
-                        fontSize: 24,
-                      ),
+                      style: GoogleFonts.poppins(
+                        textStyle: const TextStyle(
+                          fontWeight: FontWeight.w500,
+                          fontSize: 24,
+                        ),
+                      )
                     ),
                   ),
                   Row(
@@ -77,30 +79,32 @@ class _HomePageState extends State {
                             children: [
                               Container(
                                 margin: const EdgeInsets.only(top: 13, left: 25),
-                                child: const SizedBox(
+                                child: SizedBox(
                                   height: 32,
-                                  width: 100,
+                                  width: 110,
                                   child: Text(
                                     "30% OFF",
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      fontWeight: FontWeight.w600,
-                                      fontSize: 24,
+                                    style: GoogleFonts.poppins(
+                                      textStyle: const TextStyle(
+                                        fontFamily: 'Poppins',                                        fontWeight: FontWeight.w600,
+                                        fontSize: 24,
+                                      ),
                                     ),
                                   ),
                                 ),
                               ),
                               Container(
                                 margin: const EdgeInsets.only(top: 7),
-                                child: const SizedBox(
+                                child: SizedBox(
                                   height: 20,
-                                  width: 76,
+                                  width: 80,
                                   child: Text(
                                     "02-23 April",
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      fontWeight: FontWeight.w400,
-                                      fontSize: 14,
+                                    style: GoogleFonts.poppins(
+                                      textStyle: const TextStyle(
+                                        fontWeight: FontWeight.w400,
+                                        fontSize: 14,
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -136,31 +140,33 @@ class _HomePageState extends State {
                           Column(
                             children: [
                               Container(
-                                margin: const EdgeInsets.only(top: 20, left: 25),
-                                child: const SizedBox(
+                                margin: const EdgeInsets.only(top: 13, left: 25),
+                                child: SizedBox(
                                   height: 32,
-                                  width: 100,
+                                  width: 110,
                                   child: Text(
                                     "30% OFF",
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      fontWeight: FontWeight.w600,
-                                      fontSize: 24,
+                                    style: GoogleFonts.poppins(
+                                      textStyle: const TextStyle(
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 24,
+                                      ),
                                     ),
                                   ),
                                 ),
                               ),
                               Container(
                                 margin: const EdgeInsets.only(top: 7),
-                                child: const SizedBox(
+                                child: SizedBox(
                                   height: 20,
-                                  width: 76,
+                                  width: 80,
                                   child: Text(
                                     "02-23 April",
-                                    style: TextStyle(
-                                      fontFamily: 'Poppins',
-                                      fontWeight: FontWeight.w400,
-                                      fontSize: 14,
+                                    style: GoogleFonts.poppins(
+                                      textStyle: const TextStyle(
+                                        fontWeight: FontWeight.w400,
+                                        fontSize: 14,
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -195,17 +201,18 @@ class _HomePageState extends State {
               ],
             ),
             const SizedBox(height: 5,),
-            const Row(
+            Row(
               children: [
-                SizedBox(
+                const SizedBox(
                   width: 40,
                 ),
                 Text(
                   "Indoor",
-                  style: TextStyle(
-                    fontFamily: 'Poppins',
-                    fontWeight: FontWeight.w500,
-                    fontSize: 20,
+                  style: GoogleFonts.poppins(
+                    textStyle: const TextStyle(
+                      fontWeight: FontWeight.w500,
+                      fontSize: 20,
+                    ),
                   ),
                 ),
               ],
@@ -248,17 +255,18 @@ class _HomePageState extends State {
                               width: 90.24,
                             ),
                           ),
-                          const Row(
+                          Row(
                             children: [
-                              SizedBox(
+                              const SizedBox(
                                 width: 20,
                               ),
                               Text(
                                 "Snake Plants",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 13.16,
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w400,
+                                    fontSize: 13.16,
+                                  ),
                                 ),
                               ),
                             ],
@@ -269,13 +277,14 @@ class _HomePageState extends State {
                                 width: 20,
                                 height: 33,
                               ),
-                              const Text(
+                              Text(
                                 "₹350",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 16.92,
-                                  color: Color.fromRGBO(62, 102, 24, 1),
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 16.92,
+                                    color: Color.fromRGBO(62, 102, 24, 1),
+                                  ),
                                 ),
                               ),
                               const SizedBox(
@@ -323,17 +332,18 @@ class _HomePageState extends State {
                               width: 90.24,
                             ),
                           ),
-                          const Row(
+                          Row(
                             children: [
-                              SizedBox(
+                              const SizedBox(
                                 width: 20,
                               ),
                               Text(
                                 "Snake Plants",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 13.16,
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w400,
+                                    fontSize: 13.16,
+                                  ),
                                 ),
                               ),
                             ],
@@ -344,13 +354,14 @@ class _HomePageState extends State {
                                 width: 20,
                                 height: 33,
                               ),
-                              const Text(
+                              Text(
                                 "₹350",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 16.92,
-                                  color: Color.fromRGBO(62, 102, 24, 1),
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 16.92,
+                                    color: Color.fromRGBO(62, 102, 24, 1),
+                                  ),
                                 ),
                               ),
                               const SizedBox(
@@ -398,17 +409,18 @@ class _HomePageState extends State {
                               width: 90.24,
                             ),
                           ),
-                          const Row(
+                          Row(
                             children: [
-                              SizedBox(
+                              const SizedBox(
                                 width: 20,
                               ),
                               Text(
                                 "Snake Plants",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 13.16,
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w400,
+                                    fontSize: 13.16,
+                                  ),
                                 ),
                               ),
                             ],
@@ -419,13 +431,14 @@ class _HomePageState extends State {
                                 width: 20,
                                 height: 33,
                               ),
-                              const Text(
+                              Text(
                                 "₹350",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 16.92,
-                                  color: Color.fromRGBO(62, 102, 24, 1),
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 16.92,
+                                    color: Color.fromRGBO(62, 102, 24, 1),
+                                  ),
                                 ),
                               ),
                               const SizedBox(
@@ -473,17 +486,18 @@ class _HomePageState extends State {
                               width: 90.24,
                             ),
                           ),
-                          const Row(
+                          Row(
                             children: [
-                              SizedBox(
+                              const SizedBox(
                                 width: 20,
                               ),
                               Text(
                                 "Snake Plants",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 13.16,
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w400,
+                                    fontSize: 13.16,
+                                  ),
                                 ),
                               ),
                             ],
@@ -494,13 +508,14 @@ class _HomePageState extends State {
                                 width: 20,
                                 height: 33,
                               ),
-                              const Text(
+                              Text(
                                 "₹350",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 16.92,
-                                  color: Color.fromRGBO(62, 102, 24, 1),
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 16.92,
+                                    color: Color.fromRGBO(62, 102, 24, 1),
+                                  ),
                                 ),
                               ),
                               const SizedBox(
@@ -522,17 +537,18 @@ class _HomePageState extends State {
             const SizedBox(height: 5,),
             const Divider(),
             const SizedBox(height: 5,),
-            const Row(
+            Row(
               children: [
-                SizedBox(
+                const SizedBox(
                   width: 40,
                 ),
                 Text(
                   "Outdoor",
-                  style: TextStyle(
-                    fontFamily: 'Poppins',
-                    fontWeight: FontWeight.w500,
-                    fontSize: 20,
+                  style: GoogleFonts.poppins(
+                    textStyle: const TextStyle(
+                      fontWeight: FontWeight.w500,
+                      fontSize: 20,
+                    ),
                   ),
                 ),
               ],
@@ -575,17 +591,18 @@ class _HomePageState extends State {
                               width: 90.24,
                             ),
                           ),
-                          const Row(
+                          Row(
                             children: [
-                              SizedBox(
+                              const SizedBox(
                                 width: 20,
                               ),
                               Text(
                                 "Snake Plants",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 13.16,
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w400,
+                                    fontSize: 13.16,
+                                  ),
                                 ),
                               ),
                             ],
@@ -596,13 +613,14 @@ class _HomePageState extends State {
                                 width: 20,
                                 height: 33,
                               ),
-                              const Text(
+                              Text(
                                 "₹350",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 16.92,
-                                  color: Color.fromRGBO(62, 102, 24, 1),
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 16.92,
+                                    color: Color.fromRGBO(62, 102, 24, 1),
+                                  ),
                                 ),
                               ),
                               const SizedBox(
@@ -650,17 +668,18 @@ class _HomePageState extends State {
                               width: 90.24,
                             ),
                           ),
-                          const Row(
+                          Row(
                             children: [
-                              SizedBox(
+                              const SizedBox(
                                 width: 20,
                               ),
                               Text(
                                 "Snake Plants",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 13.16,
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w400,
+                                    fontSize: 13.16,
+                                  ),
                                 ),
                               ),
                             ],
@@ -671,13 +690,14 @@ class _HomePageState extends State {
                                 width: 20,
                                 height: 33,
                               ),
-                              const Text(
+                              Text(
                                 "₹350",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 16.92,
-                                  color: Color.fromRGBO(62, 102, 24, 1),
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 16.92,
+                                    color: Color.fromRGBO(62, 102, 24, 1),
+                                  ),
                                 ),
                               ),
                               const SizedBox(
@@ -725,17 +745,18 @@ class _HomePageState extends State {
                               width: 90.24,
                             ),
                           ),
-                          const Row(
+                          Row(
                             children: [
-                              SizedBox(
+                              const SizedBox(
                                 width: 20,
                               ),
                               Text(
                                 "Snake Plants",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 13.16,
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w400,
+                                    fontSize: 13.16,
+                                  ),
                                 ),
                               ),
                             ],
@@ -746,13 +767,14 @@ class _HomePageState extends State {
                                 width: 20,
                                 height: 33,
                               ),
-                              const Text(
+                              Text(
                                 "₹350",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 16.92,
-                                  color: Color.fromRGBO(62, 102, 24, 1),
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 16.92,
+                                    color: Color.fromRGBO(62, 102, 24, 1),
+                                  ),
                                 ),
                               ),
                               const SizedBox(
@@ -800,17 +822,18 @@ class _HomePageState extends State {
                               width: 90.24,
                             ),
                           ),
-                          const Row(
+                          Row(
                             children: [
-                              SizedBox(
+                              const SizedBox(
                                 width: 20,
                               ),
                               Text(
                                 "Snake Plants",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w400,
-                                  fontSize: 13.16,
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w400,
+                                    fontSize: 13.16,
+                                  ),
                                 ),
                               ),
                             ],
@@ -821,13 +844,14 @@ class _HomePageState extends State {
                                 width: 20,
                                 height: 33,
                               ),
-                              const Text(
+                              Text(
                                 "₹350",
-                                style: TextStyle(
-                                  fontFamily: 'Poppins',
-                                  fontWeight: FontWeight.w600,
-                                  fontSize: 16.92,
-                                  color: Color.fromRGBO(62, 102, 24, 1),
+                                style: GoogleFonts.poppins(
+                                  textStyle: const TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 16.92,
+                                    color: Color.fromRGBO(62, 102, 24, 1),
+                                  ),
                                 ),
                               ),
                               const SizedBox(
