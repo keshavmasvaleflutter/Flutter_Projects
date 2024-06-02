@@ -95,7 +95,7 @@ class _LoginPageState extends State {
                 onTap: () {
                   if (numberController.text.isNotEmpty) {
                     _unfocingKeybord();
-                    Navigator.push(
+                    Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(
                             builder: (context) => const VerificationPage()));

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plant_app_01/login_page.dart';
 import 'home_page.dart';
 
 class VerificationPage extends StatefulWidget {
@@ -31,9 +32,16 @@ class _VerificationPageState extends State {
             children: [
               SizedBox(
                 height: 60,
-                child: BackButton(
-                  onPressed: () => Navigator.pop(context),
-                ),
+                child: BackButton(onPressed: () {
+                  otpController1.clear();
+                  otpController2.clear();
+                  otpController3.clear();
+                  otpController4.clear();
+                  Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const LoginPage()));
+                }),
               ),
               Row(
                 children: [
@@ -191,8 +199,8 @@ class _VerificationPageState extends State {
                   otpController2.text.isNotEmpty &&
                   otpController3.text.isNotEmpty &&
                   otpController4.text.isNotEmpty) {
-                  _unfocingKeybord();          
-                  Navigator.push(context,
+                _unfocingKeybord();
+                Navigator.pushReplacement(context,
                     MaterialPageRoute(builder: (context) => const HomePage()));
                 otpController1.clear();
                 otpController2.clear();
