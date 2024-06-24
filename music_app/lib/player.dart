@@ -82,7 +82,7 @@ class _PlayerState extends State {
                       children: [
                         Container(
                           margin: const EdgeInsets.only(left: 17),
-                          width: MediaQuery.sizeOf(context).width / 3,
+                          width: MediaQuery.sizeOf(context).width / 2.5,
                           child: Text(
                             "Dynamic Warmup |",
                             style: GoogleFonts.inter(
@@ -94,7 +94,7 @@ class _PlayerState extends State {
                           ),
                         ),
                         SizedBox(
-                          width: MediaQuery.sizeOf(context).width / 2.2,
+                          width: MediaQuery.sizeOf(context).width / 2.7,
                         ),
                         SizedBox(
                           width: MediaQuery.sizeOf(context).width / 6,

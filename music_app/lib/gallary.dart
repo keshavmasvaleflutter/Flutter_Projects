@@ -154,35 +154,43 @@ class _GallaryState extends State {
                             const SizedBox(
                               width: 20,
                             ),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Image.asset(
-                                    "assets/images/gallary_pg_img/dead_inside.png"),
-                                const SizedBox(
-                                  height: 9,
-                                ),
-                                Text(
-                                  "Dead inside",
-                                  style: GoogleFonts.inter(
-                                    textStyle: const TextStyle(
-                                      fontSize: 12,
-                                      fontWeight: FontWeight.w600,
-                                      color: Color.fromRGBO(203, 200, 200, 1),
+                            GestureDetector(
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => const Player()));
+                              },
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Image.asset(
+                                      "assets/images/gallary_pg_img/dead_inside.png"),
+                                  const SizedBox(
+                                    height: 9,
+                                  ),
+                                  Text(
+                                    "Dead inside",
+                                    style: GoogleFonts.inter(
+                                      textStyle: const TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w600,
+                                        color: Color.fromRGBO(203, 200, 200, 1),
+                                      ),
                                     ),
                                   ),
-                                ),
-                                Text(
-                                  "2020",
-                                  style: GoogleFonts.inter(
-                                    textStyle: const TextStyle(
-                                      fontSize: 10,
-                                      fontWeight: FontWeight.w400,
-                                      color: Color.fromRGBO(132, 125, 125, 1),
+                                  Text(
+                                    "2020",
+                                    style: GoogleFonts.inter(
+                                      textStyle: const TextStyle(
+                                        fontSize: 10,
+                                        fontWeight: FontWeight.w400,
+                                        color: Color.fromRGBO(132, 125, 125, 1),
+                                      ),
                                     ),
                                   ),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
                             const SizedBox(
                               width: 30,
@@ -228,68 +236,84 @@ class _GallaryState extends State {
                             const SizedBox(
                               width: 30,
                             ),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Image.asset(
-                                    "assets/images/gallary_pg_img/dead_inside.png"),
-                                const SizedBox(
-                                  height: 9,
-                                ),
-                                Text(
-                                  "Dead inside",
-                                  style: GoogleFonts.inter(
-                                    textStyle: const TextStyle(
-                                      fontSize: 12,
-                                      fontWeight: FontWeight.w600,
-                                      color: Color.fromRGBO(203, 200, 200, 1),
+                            GestureDetector(
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => const Player()));
+                              },
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Image.asset(
+                                      "assets/images/gallary_pg_img/dead_inside.png"),
+                                  const SizedBox(
+                                    height: 9,
+                                  ),
+                                  Text(
+                                    "Dead inside",
+                                    style: GoogleFonts.inter(
+                                      textStyle: const TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w600,
+                                        color: Color.fromRGBO(203, 200, 200, 1),
+                                      ),
                                     ),
                                   ),
-                                ),
-                                Text(
-                                  "2020",
-                                  style: GoogleFonts.inter(
-                                    textStyle: const TextStyle(
-                                      fontSize: 10,
-                                      fontWeight: FontWeight.w400,
-                                      color: Color.fromRGBO(132, 125, 125, 1),
+                                  Text(
+                                    "2020",
+                                    style: GoogleFonts.inter(
+                                      textStyle: const TextStyle(
+                                        fontSize: 10,
+                                        fontWeight: FontWeight.w400,
+                                        color: Color.fromRGBO(132, 125, 125, 1),
+                                      ),
                                     ),
                                   ),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
                             const SizedBox(
                               width: 30,
                             ),
-                            Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Image.asset(
-                                    "assets/images/gallary_pg_img/heartless.png"),
-                                const SizedBox(
-                                  height: 9,
-                                ),
-                                Text(
-                                  "Heartless ",
-                                  style: GoogleFonts.inter(
-                                    textStyle: const TextStyle(
-                                      fontSize: 12,
-                                      fontWeight: FontWeight.w600,
-                                      color: Color.fromRGBO(203, 200, 200, 1),
+                            GestureDetector(
+                              onTap: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => const Player()));
+                              },
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Image.asset(
+                                      "assets/images/gallary_pg_img/heartless.png"),
+                                  const SizedBox(
+                                    height: 9,
+                                  ),
+                                  Text(
+                                    "Heartless ",
+                                    style: GoogleFonts.inter(
+                                      textStyle: const TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w600,
+                                        color: Color.fromRGBO(203, 200, 200, 1),
+                                      ),
                                     ),
                                   ),
-                                ),
-                                Text(
-                                  "2023",
-                                  style: GoogleFonts.inter(
-                                    textStyle: const TextStyle(
-                                      fontSize: 10,
-                                      fontWeight: FontWeight.w400,
-                                      color: Color.fromRGBO(132, 125, 125, 1),
+                                  Text(
+                                    "2023",
+                                    style: GoogleFonts.inter(
+                                      textStyle: const TextStyle(
+                                        fontSize: 10,
+                                        fontWeight: FontWeight.w400,
+                                        color: Color.fromRGBO(132, 125, 125, 1),
+                                      ),
                                     ),
                                   ),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
                           ],
                         ),
@@ -334,13 +358,29 @@ class _GallaryState extends State {
                             itemBuilder: (context, index) {
                               return Row(
                                 children: [
-                                  Container(
-                                    margin: const EdgeInsets.only(
-                                        left: 20, right: 15, top: 20),
-                                    child: Image.asset(
-                                        "assets/images/gallary_pg_img/song1_logo.png"),
+                                  GestureDetector(
+                                    onTap: () {
+                                      Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                              builder: (context) =>
+                                                  const Player()));
+                                    },
+                                    child: Container(
+                                      margin: const EdgeInsets.only(
+                                          left: 20, right: 15, top: 20),
+                                      child: Image.asset(
+                                          "assets/images/gallary_pg_img/song1_logo.png"),
+                                    ),
                                   ),
                                   GestureDetector(
+                                    onTap: () {
+                                      Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                              builder: (context) =>
+                                                  const Player()));
+                                    },
                                     child: SizedBox(
                                       width: 250,
                                       child: Column(
@@ -427,17 +467,26 @@ class _GallaryState extends State {
         unselectedItemColor: Colors.white,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.favorite_border, size: 30,),
+            icon: Icon(
+              Icons.favorite_border,
+              size: 30,
+            ),
             label: "Favorite",
             backgroundColor: Colors.black,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.search_outlined, size: 30,),
+            icon: Icon(
+              Icons.search_outlined,
+              size: 30,
+            ),
             label: "Search",
             backgroundColor: Colors.black,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.home, size: 30,),
+            icon: Icon(
+              Icons.home,
+              size: 30,
+            ),
             label: "Home",
             backgroundColor: Colors.black,
           ),
@@ -447,7 +496,10 @@ class _GallaryState extends State {
             backgroundColor: Colors.black,
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person_2_rounded, size: 30,),
+            icon: Icon(
+              Icons.person_2_rounded,
+              size: 30,
+            ),
             label: "Profile",
             backgroundColor: Colors.black,
           ),
