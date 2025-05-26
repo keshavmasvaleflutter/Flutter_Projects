@@ -27,15 +27,15 @@ Stay updated with the latest headlines and in-depth stories, all in one place.
 lib/
 
 ├── config/
-
+|
 ├── controllers/
-
+|
 ├── model/
-
+|
 ├── services/
-
+|
 ├── view/
-
+|
 └── main.dart
 
 APK linl:- https://drive.google.com/file/d/16S9QnuZ0LJPyE7WfwgdAD7hOoMIQoPgN/view?usp=sharing 
