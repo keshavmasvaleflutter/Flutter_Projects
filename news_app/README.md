@@ -40,8 +40,11 @@ lib/
 
 APK linl:- https://drive.google.com/file/d/16S9QnuZ0LJPyE7WfwgdAD7hOoMIQoPgN/view?usp=sharing 
 
-Note:- Use this version
-    Flutter 3.29.3 • channel stable • https://github.com/flutter/flutter.git
-    Framework • revision ea121f8859 (6 weeks ago) • 2025-04-11 19:10:07 +0000
-    Engine • revision cf56914b32
-    Tools • Dart 3.7.2 • DevTools 2.42.3
+**Technical Specifications**
+- *Flutter Version: 3.29.3 (stable channel)*
+- *Dart Version: 3.7.2*
+        
+Note:- The news API integration has daily request limits, meaning:
+    - There's a maximum number of news articles that can be fetched per day
+    - Once the limit is reached, news content may not load until the limit resets
+    - This is typically due to using a free-tier news API service
