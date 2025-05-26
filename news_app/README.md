@@ -45,6 +45,4 @@ APK linl:- https://drive.google.com/file/d/16S9QnuZ0LJPyE7WfwgdAD7hOoMIQoPgN/vie
 - *Dart Version: 3.7.2*
         
 Note:- The news API integration has daily request limits, meaning:
-    - There's a maximum number of news articles that can be fetched per day
-    - Once the limit is reached, news content may not load until the limit resets
-    - This is typically due to using a free-tier news API service
+There's a maximum number of news articles that can be fetched per day. Once the limit is reached, news content may not load until the limit resets. This is typically due to using a free-tier news API service
